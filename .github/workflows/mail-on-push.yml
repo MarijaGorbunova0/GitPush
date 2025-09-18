@@ -15,7 +15,7 @@ jobs:
           server_address: smtp.gmail.com      
           server_port: 465                     
           username: ${{ secrets.MSMASHA_USERNAME }} 
-          password: ${{ secrets MSMASHA_PASSWORD }} 
+          password: ${{ secrets.MSMASHA_PASSWORD }} 
           subject: GitHub Push Notification
           body: "Произошел push в репозиторий!"
           to: marijagorbu228@gmail.com            
