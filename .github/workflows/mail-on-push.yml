@@ -9,7 +9,7 @@ jobs:
   send_email:
     runs-on: ubuntu-latest
     steps:
-      - name: Отправка email
+      - name: email
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com      
