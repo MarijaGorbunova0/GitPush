@@ -17,6 +17,6 @@ jobs:
           username: ${{ secrets.MSMASHA_USERNAME }} 
           password: ${{ secrets.MSMASHA_PASSWORD }} 
           subject: GitHub Push Notification
-          body: "Произошел push в репозиторий!"
+          body: "push в репозиторий!"
           to: marijagorbu228@gmail.com            
-          from: ${{ secrets.EMAIL_USER }}      
+          from: ${{ secrets.MSMASHA_USERNAME }}  
